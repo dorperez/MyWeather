@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="loading">Loading...</string>
+    <string name="wind_speed">Wind Speed:</string>
+    <string name="km">K/M</string>
+    <string name="not_found">Not Found...</string>
+    <string name="list_updated">List Updated</string>
+    <string name="adding">Adding..</string>
+    <string name="please_make_sure_you_entered_the_right_lat_lng">Please make sure you entered the right Latitude and Longitude</string>
+    <string name="please_enter_the_latitude_and_longitude_of_the_place_you_wish_to_add">Please enter the latitude and longitude of the place you wish to add:</string>
+    <string name="latitude_ex_31_25">Latitude (Ex: 31.77)</string>
+    <string name="longitude_ex_33_15">Longitude (Ex: 35.21)</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="temperature">Temperature:</string>
+    <string name="visibility">Visibility:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="wind">Wind:</string>
+    <string name="latitude_cant_be_empty">Latitude can\'t be empty..</string>
+    <string name="longitude_cant_be_empty">Longitude can\'t be empty..</string>
+    <string name="morning">Morning</string>
+    <string name="noon">Noon</string>
+    <string name="evening">Evening</string>
+    <string name="night">Night</string>
+    <string name="clear_weather">Clear</string>
+    <string name="partly_clouded">Partly cloudy</string>
+    <string name="fog">Fog</string>
+    <string name="light_drizzle">Light Drizzle</string>
+    <string name="freezing_drizzle">Freezing Drizzle</string>
+    <string name="slightly_rain">Slightly Rain</string>
+    <string name="freezing_rain">Freezing Rain</string>
+    <string name="snow">Snow</string>
+    <string name="rain_showers">Rain showers</string>
+    <string name="snow_showers">Snow showers</string>
+    <string name="thunderstorm">Thunderstorm</string>
+    <string name="f" translatable="false">°F</string>
+    <string name="c" translatable="false">°C</string>
+    <string name="please_check_your_internet_connection">Please check your internet connection</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string name="loading">טוען...</string>
+    <string name="wind_speed">מהירות הרוח:</string>
+    <string name="km">ק\"מ</string>
+    <string name="not_found">לא נמצא..</string>
+    <string name="list_updated">הרשימה עודכנה</string>
+    <string name="adding">מוסיף...</string>
+    <string name="please_make_sure_you_entered_the_right_lat_lng">אנא וודא שהקלדת קורדינטות נכונות</string>
+    <string name="please_enter_the_latitude_and_longitude_of_the_place_you_wish_to_add">אנא הקלד קורדינטות של המקום אותו תרצה להוסיף:</string>
+    <string name="latitude_ex_31_25">קו רוחב (לדוג\': 31.77)</string>
+    <string name="longitude_ex_33_15">קו אורך (לדוג\': 35.21)</string>
+    <string name="add">הוסף</string>
+    <string name="cancel">ביטול</string>
+    <string name="temperature">טמפרטורה:</string>
+    <string name="visibility">ראות:</string>
+    <string name="humidity">לחות:</string>
+    <string name="wind">רוח:</string>
+    <string name="latitude_cant_be_empty">אנא הקלד קו רוחב</string>
+    <string name="longitude_cant_be_empty">אנא הקלד קו אורך</string>
+    <string name="morning">בבוקר</string>
+    <string name="noon">בצהריים</string>
+    <string name="evening">בערב</string>
+    <string name="night">בלילה</string>
+    <string name="clear_weather">בהיר</string>
+    <string name="partly_clouded">מעונן חלקית</string>
+    <string name="fog">ערפל</string>
+    <string name="light_drizzle">טפטוף קל</string>
+    <string name="freezing_drizzle">טפטוף מקפיא</string>
+    <string name="slightly_rain">מעט גשם</string>
+    <string name="freezing_rain">גשם קפוא</string>
+    <string name="snow">שלג</string>
+    <string name="rain_showers">ממטרי גשם</string>
+    <string name="snow_showers">ממטרי שלג</string>
+    <string name="thunderstorm">סופת רעמים</string>
+    <string name="please_check_your_internet_connection">"אנא בדוק את החיבור לאינטרנט "</string>
+</resources>

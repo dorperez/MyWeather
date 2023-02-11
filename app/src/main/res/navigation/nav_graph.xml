@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/forecastsFragment">
+
+    <fragment
+        android:id="@+id/forecastsFragment"
+        android:name="com.dapps.myweather.ui.ForecastsListFragment"
+        tools:layout="@layout/fragment_forecasts_list"
+        android:label="list_fragment">
+        <action
+            android:id="@+id/action_forecastsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.dapps.myweather.ui.DetailsFragment"
+        android:label="details_fragment"
+        tools:layout="@layout/fragment_details" />
+</navigation>

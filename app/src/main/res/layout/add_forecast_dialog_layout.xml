@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addForecastDialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyCardViewDialogStyle"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/please_enter_the_latitude_and_longitude_of_the_place_you_wish_to_add"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/addForecastDialogLatitudeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/dialog_edit_text_style"
+                android:ems="10"
+                android:padding="16dp"
+                android:gravity="center"
+                android:hint="@string/latitude_ex_31_25"
+                android:digits="1234567890-."
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/addForecastDialogLongitudeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/dialog_edit_text_style"
+                android:ems="10"
+                android:padding="16dp"
+                android:gravity="center"
+                android:hint="@string/longitude_ex_33_15"
+                android:digits="1234567890-."
+                android:inputType="number" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addForecastDialogAddButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/MyMaterialButtonStyle"
+                android:text="@string/add"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addForecastDialogCancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                style="@style/MyMaterialOutlineButtonStyle"
+                android:text="@string/cancel"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

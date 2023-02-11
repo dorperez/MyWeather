@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false">
+        <shape android:dither="true" android:shape="rectangle" android:useLevel="false" android:visible="true">
+            <solid android:color="@color/switcher_track_color" />
+            <corners android:radius="20dp" />
+            <size android:width="50dp" android:height="20dp" />
+        </shape>
+    </item>
+</selector>
