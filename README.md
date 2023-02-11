@@ -1,3 +1,5 @@
+![alt text](https://i.ibb.co/NCN7R9L/Screenshot-20230211-224938-My-Weather.jpg) ![alt text](https://i.ibb.co/BtRLxHZ/Screenshot-20230211-224948-My-Weather.jpg)
+
 Weather App that uses Open-Merteo API.
 https://open-meteo.com/en/docs
 
@@ -14,11 +16,6 @@ Weather Data Displayed:
 * Wind Speed
 * Visibility
 * Humidity
-
-Images:
-
-![alt text](https://i.ibb.co/NCN7R9L/Screenshot-20230211-224938-My-Weather.jpg) ![alt text](https://i.ibb.co/BtRLxHZ/Screenshot-20230211-224948-My-Weather.jpg)
-
 
 Future Updated:
 * Theme Changer
