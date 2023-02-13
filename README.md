@@ -17,7 +17,8 @@ Weather Data Displayed:
 * Visibility
 * Humidity
 
-Future Updated:
+Future Updates:
 * Theme Changer
 * Language Changer
+* Orientation Change
 
